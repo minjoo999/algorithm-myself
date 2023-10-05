@@ -12,7 +12,6 @@ visited = [0 for _ in range(10**5 + 1)]
 
 
 def bfs(x, y):
-    global cnt
     D = deque([x])
     print(D)
 
